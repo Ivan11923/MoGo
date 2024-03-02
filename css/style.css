@@ -5,7 +5,7 @@
     --accent-color: #95E1D3;
     --beautiful-color: #F38181;
     --main-color: #333333;
-    --paragraf-color: #B6B6B6;
+    --paragraph-color: #B6B6B6;
 }
 
 body {
@@ -13,7 +13,19 @@ body {
     color:var(--main-color,#333333)
 }
 
+p {
+    font-family: var(--paragraf-font,"Roboto",
+        sans-serif);
+    color: var(--paragraph-color,#B6B6B6);    
+}
+
 .logo {
     font-family: var(--main-font,"Montserrat",sans-serif);
     color: var(--accent-color,#95E1D3);
+}
+
+.top-border-title {
+    font-family: var(--beautiful-font,"Kaushan Script",
+        cursive);
+
 }
