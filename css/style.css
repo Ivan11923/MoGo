@@ -19,7 +19,7 @@ p {
     color: var(--paragraph-color,#B6B6B6);    
 }
 
-.logo {
+.logo,.nav-link {
     font-family: var(--main-font,"Montserrat",sans-serif);
     color: var(--accent-color,#95E1D3);
 }
@@ -28,4 +28,9 @@ p {
     font-family: var(--beautiful-font,"Kaushan Script",
         cursive);
 
+}
+
+.active {
+    color: var(--beautiful-color,#F38181);
+    border-bottom: 1px solid var(--beautiful-color);
 }
