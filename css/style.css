@@ -10,5 +10,10 @@
 
 body {
     font-family: var(--main-font);
+    color:var(--main-color,#333333)
 }
 
+.logo {
+    font-family: var(--main-font,"Montserrat",sans-serif);
+    color: var(--accent-color,#95E1D3);
+}
