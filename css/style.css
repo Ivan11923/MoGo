@@ -32,5 +32,5 @@ p {
 
 .active {
     color: var(--beautiful-color,#F38181);
-    border-bottom: 1px solid var(--beautiful-color);
+    border-bottom: 1px solid var(--beautiful-color,#F38181);
 }
