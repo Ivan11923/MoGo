@@ -6,11 +6,13 @@
     --beautiful-color: #F38181;
     --main-color: #333333;
     --paragraph-color: #B6B6B6;
+    --page-font-size:15 px;
 }
 
 body {
     font-family: var(--main-font);
-    color:var(--main-color,#333333)
+    color:var(--main-color,#333333);
+    font-size: var(--page-font-size,15 px);
 }
 
 p {
