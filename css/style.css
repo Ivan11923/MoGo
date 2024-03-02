@@ -1,0 +1,14 @@
+:root {
+    --main-font: "Montserrat", sans-serif;
+    --paragraf-font: "Roboto", sans-serif;
+    --beautiful-font: "Kaushan Script", cursive;
+    --accent-color: #95E1D3;
+    --beautiful-color: #F38181;
+    --main-color: #333333;
+    --paragraf-color: #B6B6B6;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
