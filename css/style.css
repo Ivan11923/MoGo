@@ -7,6 +7,7 @@
     --main-color: #333333;
     --paragraph-color: #B6B6B6;
     --page-font-size:15 px;
+    --button-text-color:#ffffff;
 }
 
 body {
@@ -21,6 +22,12 @@ p {
     color: var(--paragraph-color,#B6B6B6);    
 }
 
+button[type='button'] {
+    color: var(--button-text-color, #ffffff);
+    background-color: var(--accent-color, #95E1D3);
+    border: none;
+}
+
 .logo,.nav-link {
     font-family: var(--main-font,"Montserrat",sans-serif);
     color: var(--accent-color,#95E1D3);
@@ -33,6 +40,12 @@ p {
 }
 
 .active {
+    font-family: var(--main-font);
     color: var(--beautiful-color,#F38181);
     border-bottom: 1px solid var(--beautiful-color,#F38181);
+}
+
+.footer-input {
+    color: var(--paragraph-color);
+    font-family: var(--paragraf-font);
 }
