@@ -16,6 +16,10 @@ body {
     font-size: var(--page-font-size,15 px);
 }
 
+li {
+    list-style: none;
+}
+
 p {
     font-family: var(--paragraf-font,"Roboto",
         sans-serif);
@@ -28,10 +32,29 @@ button[type='button'] {
     border: none;
 }
 
-.logo,.nav-link {
-    font-family: var(--main-font,"Montserrat",sans-serif);
-    color: var(--accent-color,#95E1D3);
+.header-container {
+    width: 1200px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.logo,
+.nav-link {
+    font-family: var(--main-font, "Montserrat", sans-serif);
+    color: var(--accent-color, #95E1D3);
+}
+
+.nav-list {
+    width: 470px;
+    
+    align-items: inherit;
+    display: flex;
+    gap: 55px;
+}
+
+
 
 .top-border-title {
     font-family: var(--beautiful-font,"Kaushan Script",
