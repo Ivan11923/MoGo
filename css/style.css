@@ -40,11 +40,17 @@ button[type='button'] {
     align-items: center;
 }
 
+.logo {
+font-size: 30px;
+}
+
 .logo,
 .nav-link {
     font-family: var(--main-font, "Montserrat", sans-serif);
     color: var(--accent-color, #95E1D3);
+    
 }
+
 
 .nav-list {
     width: 470px;
