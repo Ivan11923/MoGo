@@ -31,22 +31,37 @@ button[type="button"] {
   border: none;
 }
 
-.logo {
-  font-size: 30px;
+.container {
+  width: 942px;
+  outline: solid red;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.logo,
+.nav {
+  display: flex;
+}
+
+.logo {
+  font-size: 36px;
+  font-family: var(--main-font);
+  font-weight: 400;
+  line-height: 1.4;
+  font-family: var(--main-font, "Montserrat", sans-serif);
+  color: var(--accent-color, #95e1d3);
+}
+
 .nav-link {
   font-family: var(--main-font, "Montserrat", sans-serif);
   color: var(--accent-color, #95e1d3);
 }
 
 .nav-list {
-  width: 470px;
-
-  align-items: inherit;
   display: flex;
-  gap: 55px;
+  margin-left: auto;
+  gap: 10px;
 }
 
 .top-border-title {
