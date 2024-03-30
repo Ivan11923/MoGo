@@ -1,80 +1,65 @@
 :root {
-    --main-font: "Montserrat", sans-serif;
-    --paragraf-font: "Roboto", sans-serif;
-    --beautiful-font: "Kaushan Script", cursive;
-    --accent-color: #95E1D3;
-    --beautiful-color: #F38181;
-    --main-color: #333333;
-    --paragraph-color: #B6B6B6;
-    --page-font-size:15 px;
-    --button-text-color:#ffffff;
+  --main-font: "Montserrat", sans-serif;
+  --paragraf-font: "Roboto", sans-serif;
+  --beautiful-font: "Kaushan Script", cursive;
+  --accent-color: #95e1d3;
+  --beautiful-color: #f38181;
+  --main-color: #333333;
+  --paragraph-color: #b6b6b6;
+  --page-font-size: 15 px;
+  --button-text-color: #ffffff;
 }
 
 body {
-    font-family: var(--main-font);
-    color:var(--main-color,#333333);
-    font-size: var(--page-font-size,15 px);
+  font-family: var(--main-font);
+  color: var(--main-color, #333333);
+  font-size: var(--page-font-size, 15 px);
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 p {
-    font-family: var(--paragraf-font,"Roboto",
-        sans-serif);
-    color: var(--paragraph-color,#B6B6B6);    
+  font-family: var(--paragraf-font, "Roboto", sans-serif);
+  color: var(--paragraph-color, #b6b6b6);
 }
 
-button[type='button'] {
-    color: var(--button-text-color, #ffffff);
-    background-color: var(--accent-color, #95E1D3);
-    border: none;
-}
-
-.header-container {
-    width: 1200px;
-    height: 45px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+button[type="button"] {
+  color: var(--button-text-color, #ffffff);
+  background-color: var(--accent-color, #95e1d3);
+  border: none;
 }
 
 .logo {
-font-size: 30px;
+  font-size: 30px;
 }
 
 .logo,
 .nav-link {
-    font-family: var(--main-font, "Montserrat", sans-serif);
-    color: var(--accent-color, #95E1D3);
-    
+  font-family: var(--main-font, "Montserrat", sans-serif);
+  color: var(--accent-color, #95e1d3);
 }
-
 
 .nav-list {
-    width: 470px;
-    
-    align-items: inherit;
-    display: flex;
-    gap: 55px;
+  width: 470px;
+
+  align-items: inherit;
+  display: flex;
+  gap: 55px;
 }
 
-
-
 .top-border-title {
-    font-family: var(--beautiful-font,"Kaushan Script",
-        cursive);
-
+  font-family: var(--beautiful-font, "Kaushan Script", cursive);
 }
 
 .active {
-    font-family: var(--main-font);
-    color: var(--beautiful-color,#F38181);
-    border-bottom: 1px solid var(--beautiful-color,#F38181);
+  font-family: var(--main-font);
+  color: var(--beautiful-color, #f38181);
+  border-bottom: 1px solid var(--beautiful-color, #f38181);
 }
 
 .footer-input {
-    color: var(--paragraph-color);
-    font-family: var(--paragraf-font);
+  color: var(--paragraph-color);
+  font-family: var(--paragraf-font);
 }
